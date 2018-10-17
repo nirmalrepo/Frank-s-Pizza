@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | Franks's Pizzeria & Pub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+    <script type="text/javascript" src="js/jquery-1.6.js"></script>
+    <script type="text/javascript" src="js/slider-toggle.js"></script>
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+    <script>
+        $(function () {
+            $("#slidez").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 500,
+                maxwidth: 960,
+                namespace: "centered-btns"
+            });
+        });
+    </script>
+
+</head>
+
+<body id="">
+    <div class="main grid">
+        <!-- header -->
+        <header>
+            <div class="wrap">
+
+                <h1><a href="index.html" id="logo"><img src="images/logo.png" /></a></h1>
+                <div id="menu_btn">&#9776;</div>
+            </div>
+            <div class="wrap">
+                <nav>
+                    <ul id="menu">
+                        <li class="active"><a class="newf" href="index.html">HOME</a></li>
+                        <li><a class="newf" href="pizza.html">PIZZA</a></li>
+                        <li><a href="menu.html">SIDES</a></li>
+                        <li><a href="drinks.html">DRINKS</a></li>
+                        <li><a href="deals.html">DEALS</a></li>
+                    </ul>
+                    <div id="call-parent">
+                        <div id="call-us">CALL US: 021 0221 6437</div>
+                    </div>
+                </nav>
+            </div>
+
+
+        </header>
+        <!-- / header -->
+        <!-- content -->
+        <article id="content">
+            <div class="slider_bg">
+                <div class="slider-response">
+                    <div class="rslides_container">
+                        <ul class="rslides" id="slidez">
+                            <li><img src="images/web_header_1.jpg" alt=""></li>
+                            <li><img src="images/web_header_2.jpg" alt=""></li>
+                            <li><img src="images/web_header_3.jpg" alt=""></li>
+                            <li><img src="images/web_header_4.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap">
+                <section class="col-1-2">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div>
+                                <figure><img src="images/deal2.png" alt=""></figure>
+                                <div class="descripton">
+                                    JACK DANIELS <br /><span class="red">6 REDBULLS</span> <br /><span class="yellow">$114.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-1-2">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div>
+                                <figure><img src="images/deal1.png" alt=""></figure>
+                                <div class="descripton">
+                                    SMIRNOFF +<br /><span class="red">6 REDBULLS</span><br /><span class="yellow">$34.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-1-2">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div>
+                                <figure><img src="images/crona_new.png" alt=""></figure>
+                                <div class="descripton" style="margin-top: 20px"> Buy 4 CORONAS<br /><span class="red">&
+                                        GET 1 FREE!</span><br /><span class="yellow">$24.99</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-1-2">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div>
+                                <figure><img src="images/somes.png" alt=""></figure>
+                                <div class="descripton" style="margin-top: 20px"> Buy 4 SOMERSBIES<br /><span class="red">&
+                                        GET 1 FREE!</span><br /><span class="yellow">$7.99</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+    <div class="main grid">
+        <!-- footer -->
+        <footer>
+            <div class="wrapper">
+                <section class="col-2-3">
+                    <div class="wrap-col">
+                        <p>Frank's Pizzeria & Pub<br>Grove St, The Wood, Nelson<br>Call Us:021 0221 6437</p>
+                    </div>
+                </section>
+                <section class="col-1-3">
+                    <div class="wrap-col">
+                        <a href="#"><img src="images/rsz_rsz_2rsz_fu.png"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <!-- / footer -->
+    </div>
+</body>
+
+</html>

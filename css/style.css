@@ -1,0 +1,592 @@
+/* Global properties Start */
+
+@font-face {
+    font-family: UnitedSan;
+    src: url('fonts/CODE Bold.otf');
+}
+
+body {
+    background: #252523 url("../images/Black-Background.jpg") no-repeat 50% scroll;
+    background-attachment: fixed;
+    border: 0;
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    color: #200;
+    line-height: 24px
+}
+
+.main {
+    margin: 0 auto;
+}
+
+article, footer, header, nav, section {
+    display: block
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden
+}
+
+.wrap {
+    overflow: hidden;
+    margin-left: -5px;
+    padding-left: 5px
+}
+
+/* Global properties End */
+
+/* Main layout Start */
+
+a {
+    color: #a80002;
+    text-decoration: none;
+    outline: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h1 {
+    float: left;
+    padding: 0px 0 0 36px
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 1.2em;
+    color: #200000;
+    padding: 16px 0 12px 0;
+    letter-spacing: -2px
+}
+
+h2.letter_spacing {
+    letter-spacing: -3px
+}
+
+h3 {
+    font-size: 27px;
+    color: #230000;
+    line-height: 1.2em;
+    padding: 20px 0 9px 0;
+    letter-spacing: -1px
+}
+
+h3 span {
+    color: #a80002
+}
+
+p {
+    padding-bottom: 24px
+}
+
+/* Main layout  End*/
+
+/* Header Styles Start */
+
+header {
+    height: 119px;
+    padding-top: 13px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.27) !important;
+    background: rgba(0, 0, 0, 0.63) none repeat scroll 0px 0px !important;
+}
+
+header .wrap:nth-child(1) {
+    margin-bottom: 11px !important;
+}
+
+header .wrap:nth-child(1) h1 {
+    padding: 0px 0px 0px 5px;
+}
+
+#logo {
+    display: block;
+}
+
+#menu {
+    float: left;
+    padding: 0 0 0 0;
+    width: 70%
+}
+
+#menu li {
+    float: left;
+    padding-left: 0px;
+    border-right: 1px solid #666 !important;
+    border-top: 1px solid #666;
+    width: 19.83%;
+    height: 44px;
+}
+
+#menu li a {
+    display: block;
+    font-size: 24px;
+    color: #faf3ed;
+    line-height: 40px;
+    text-align: center;
+}
+
+#menu li a:hover, #menu .active a {
+    text-decoration: none;
+}
+
+#menu li.active {
+    border-bottom: none !important;
+    height: 45px;
+}
+
+#menu li:hover {
+    background: #000;
+}
+
+#menu li:hover>a {
+    color: #FED75F;
+}
+
+#menu .active {
+    box-shadow: 0px -3px 0px 0px #ED481C inset;
+}
+
+#menu li:last-child {
+    background: #ECECEC none repeat scroll 0px 0px;
+}
+
+#menu li:last-child:hover>a {
+    color: #FED75F !important;
+}
+
+#menu li:last-child a {
+    color: #000 !important;
+}
+
+.slider_bg {
+    width: 100%;
+    height: 404px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    margin-bottom: 35px
+}
+
+#call-parent {
+    width: 30%;
+    box-shadow: 0px 0px 4px 2px rgba(1, 1, 1, 0.4);
+    background: #ED481C none repeat scroll 0px 0px;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    position: relative;
+    font-feature-settings: "pnum";
+    top: -2px;
+    right: 5px;
+    z-index: 2;
+}
+
+#call-us {
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: UnitedSan !important;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.slider_bg {
+    height: 384px !important;
+}
+
+.slider {
+    top: 0 !important;
+    right: 5px !important;
+}
+
+div#menu_btn {
+    float: right;
+    text-align: right;
+    color: #ED481C;
+    display: block;
+    font-size: 2em;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sub_heading {
+    display: none;
+}
+
+.slider-response {
+    display: block !important;
+}
+
+/* Header Styles End */
+
+/* Content Styles Start */
+
+#content {
+    padding-bottom: 40px
+}
+
+#content2 {
+    padding-bottom: 31px
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0px 0px;
+    color: #faf3ed;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4)
+}
+
+.box>div {
+    padding: 37px 30px 30px !important;
+    overflow: hidden;
+    padding: 10px !important;
+}
+
+.box h2 {
+    color: #a80002;
+    padding: 15px 0 12px 0
+}
+
+.box h2 span {
+    color: #faf3ed
+}
+
+.box>div figure {
+    width: 45%;
+    float: left;
+}
+
+.pad_bot1, #menu li a {
+    font-family: UnitedSan;
+}
+
+.pad_bot1 {
+    text-align: center;
+    font-size: 41px;
+    color: #FFCF39;
+    font-family: UnitedSan !important;
+}
+
+.pad_bot1 span {
+    color: #ED481C;
+}
+
+.pad_bot1 sup {
+    font-size: 19px;
+    position: absolute;
+    top: -16px;
+}
+
+.box div div {
+    margin-top: 30px;
+    width: 55%;
+    float: right;
+}
+
+.descripton {
+    text-align: center;
+    font-size: 36px;
+    color: #ED481C;
+    font-family: UnitedSan !important;
+    line-height: 119%;
+}
+
+.red {
+    color: #ED1C24;
+}
+
+.yellow {
+    color: #FFCF39;
+}
+
+/* Content Styles End */
+
+/* Footer Styles Start */
+
+footer {
+    height: 138px;
+    font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #696969;
+    line-height: 18px;
+    border-top: 1px solid;
+}
+
+footer section p {
+    font-size: 15px;
+    font-family: Arial Narrow;
+    color: rgba(201, 201, 201, 0.63);
+}
+
+footer section img {
+    float: right;
+}
+
+/* Footer Styles End */
+
+/* Page - Pizza Styles Start */
+
+.pizza-menu-container {
+    padding: 0px 30px 60px;
+    min-height: 1000px;
+    overflow: hidden;
+    color: #C66614;
+}
+
+.pizza-menu-container h3 {
+    border-style: none none solid;
+    border-width: 2px;
+    border-color: #887450;
+}
+
+.pizza-menu-container ul.section {
+    margin-top: 35px;
+    padding: 0px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.pizza-menu-container ul.section li.odd {
+    float: left;
+    margin-right: 50px;
+}
+
+.pizza-menu-container ul.section li {
+    margin-bottom: 50px;
+}
+
+.pizza-menu-container ul.section {
+    list-style-type: none;
+}
+
+.pizza-menu-container ul.section li h2 {
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-style: italic;
+    color: #FFF;
+}
+
+.pizza-menu-container ul li h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pizza-menu-container ul.section li ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.pizza-menu-container ul.section li ul li {
+    border-right: 1px none #5B2F01;
+    border-width: medium 1px 1px;
+    margin-bottom: 0px;
+    border-color: #FFF;
+}
+
+.pizza-menu-container ul.section li ul li.last {
+    border: medium none;
+}
+
+.pizza-menu-container ul.section li {
+    float: left;
+    width: 425px;
+    margin-bottom: 50px;
+}
+
+.pizza-menu-container ul.section {
+    list-style-type: none;
+}
+
+.pizza-menu-container ul.section li ul li h2 {
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+    font-size: 19px;
+    width: 75%;
+    float: left;
+    text-align: left;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.pizza-menu-container ul.section li ul li p {
+    color: rgba(201, 201, 201, 0.63);
+    font-family: Arial Narrow;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.pizza-menu-container ul.section li ul li span {
+    /* width: 25%; */
+    float: left;
+    font-family: Calibri;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+    color: #FFF;
+}
+
+.pizza-menu-container ul.section li ul li>div.row:nth-child(1) {
+    width: 20%;
+    float: left;
+}
+
+.pizza-menu-container ul.section li ul li>div.row:nth-child(1) img {
+    width: 100%;
+}
+
+.pizza-menu-container ul.section li ul>li div.row:nth-child(2) {
+    width: 75%;
+    float: right;
+}
+
+.pizza-container .content {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0px 0px !important;
+}
+
+/* Page - Pizza Styles End */
+
+/* Media Queries Start */
+
+@media(min-width:320px) and (max-width:360px) {
+    .slider_bg {
+        height: auto !important;
+    }
+    .pad_bot1 {
+        font-size: 30px;
+    }
+    header {
+        height: auto !important;
+    }
+}
+
+@media(min-width:361px) and (max-width:768px) {
+    .slider_bg {
+        height: auto !important;
+    }
+    header {
+        height: auto !important;
+    }
+}
+
+@media(min-width:769px) and (max-width:960px) {
+    .slider_bg {
+        height: auto !important;
+    }
+    #menu {
+        width: 76%;
+    }
+    #call-parent {
+        width: 24%;
+        top: 9px;
+    }
+    .pizza-menu-container ul.section li {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) and (max-width:960px) {
+   
+    .pizza-menu-container ul.section li {
+        width: 100%;
+    }
+}
+
+@media(max-width:960px) {
+    .slider_bg {
+        height: auto !important;
+        background: none !important;
+    }
+    #menu {
+        width: 100%;
+    }
+    .hidden_menu {
+        display: none;
+    }
+    #menu li {
+        width: 100%;
+    }
+    #call-parent {
+        display: none;
+    }
+    .deals {
+        display: none !important;
+    }
+    header {
+        position: static !important;
+        height: auto !important;
+    }
+    #menu li:last-child {
+        background: inherit;
+    }
+    #menu li:last-child:hover {
+        background: #000 none repeat scroll 0% 0%;
+    }
+    #menu li:last-child a {
+        color: #FAF3ED !important;
+    }
+    #menu li {
+        border: none;
+    }
+    .sub_heading {
+        display: block !important;
+        margin-top: 50px;
+    }
+    #content {
+        margin-top: -15px;
+    }
+    .sub_heading p {
+        font-family: unitedSan;
+        color: #FFF;
+        font-size: 90px;
+        margin-top: 30px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+}
+
+@media (min-width:961px) {
+    div#menu_btn {
+        display: none !important;
+    }
+}
+
+@media(max-width:960px) {
+    .descripton {
+        font-size: 26px;
+    }
+}
+
+@media(min-width:361px) and (max-width:618px) {
+    .descripton {
+        font-size: 26px;
+    }
+    .box img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media(max-width: 390px) {
+    .pizza-menu-container ul.section li {
+        width: 370px;
+    }
+}
+
+/* Media Queries End */
