@@ -1,5 +1,5 @@
 $(window).load(function () {
-    $("#menu").addClass("js");
+    $("#menu").addClass("hide");
     $("#menu_btn").click(function () {
         $("#menu").slideToggle('slow');
     });
