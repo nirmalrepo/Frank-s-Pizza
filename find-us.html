@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-129061240-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-129061240-1");
+    </script>
+
+    <title>Find Us | Franks's Pizzeria & Pub</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery-1.6.js"></script>
+    <script type="text/javascript" src="js/slider-toggle.js"></script>
+  </head>
+
+  <body>
+    <div class="main grid">
+      <!-- header -->
+      <header>
+        <div class="wrap">
+          <h1>
+            <a href="index.html" id="logo"> <img src="images/logo.png" /> </a>
+          </h1>
+          <div id="menu_btn">&#9776;</div>
+        </div>
+        <div class="wrap">
+          <nav>
+            <ul id="menu">
+              <li><a class="newf" href="index.html">HOME</a></li>
+              <li><a class="newf" href="pizza.html">PIZZA</a></li>
+              <li><a href="sides.html">SIDES</a></li>
+              <li><a href="drinks.html">DRINKS</a></li>
+              <li class="active"><a href="find-us.html">FIND US</a></li>
+            </ul>
+            <div id="call-parent">
+              <div id="call-us">
+                <a href="tel:+64 21 0221 6437">CALL US: 021 0221 6437</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- / header -->
+      <!-- content -->
+      <div class="col-full sub_heading"><h1 class="">FIND US</h1></div>
+
+      <article id="content">
+        <div class="deals">
+          <div id="product_name_container">
+            <span
+              style="padding:0px; color: #484848"
+              class="productName"
+              id="product_page"
+              >FIND US</span
+            >
+          </div>
+          <img src="images/find-us.jpg" alt="Find us banner image" />
+        </div>
+        <div class="wrap">
+          <div class="section-container">
+            <div class="content">
+              <div class="menu-container">
+                <h3></h3>
+                <div class="section">
+                  <div class="col-full">
+                    <div id="googleMap" style="width:100%;height:500px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- /content -->
+    </div>
+    <div class="main grid">
+      <!-- footer -->
+      <footer>
+        <div class="wrapper">
+          <section class="col-2-3">
+            <div class="wrap-col">
+              <p>
+                Frank's Pizzeria & Pub <br />Grove St, The Wood, Nelson
+                <br />Call Us:021 0221 6437
+              </p>
+            </div>
+          </section>
+          <section class="col-1-3">
+            <div class="wrap-col">
+              <a href="#">
+                <img
+                  src="images/rsz_rsz_2rsz_fu.png"
+                  alt="Find us on Facebook"
+                />
+              </a>
+            </div>
+          </section>
+        </div>
+      </footer>
+      <!-- / footer -->
+    </div>
+    <script>
+      function initMap() {
+        var myLatLng = { lat: -41.2693909, lng: 173.2947638 };
+
+        var map = new google.maps.Map(document.getElementById("googleMap"), {
+          zoom: 9,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: "Hello World!"
+        });
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8QUxygQ8karxoMNI5inffVufDcfjN608&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-$(window).load(function () {
+$(document).ready(function(){
     $("#menu").addClass("hide");
     $("#menu_btn").click(function () {
         $("#menu").slideToggle('slow');
